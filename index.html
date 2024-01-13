@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Screen Recorder</title>
+</head>
+<body>
+    <div id="app">
+        <video id="screenVideo" controls autoplay></video>
+        <button id="startRecording">Start Recording</button>
+        <button id="stopRecording" disabled>Stop Recording</button>
+        <label for="speedControl">Playback Speed:</label>
+        <select id="speedControl">
+            <option value="0.5">0.5x</option>
+            <option value="1" selected>1x</option>
+            <option value="2">2x</option>
+        </select>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
